@@ -1,5 +1,6 @@
 body {
   font-family: "Lato", sans-serif;
+  color: #272a31;
 }
 
 h1 {
@@ -53,6 +54,9 @@ header {
 .main-program {
   background-image: url("/img/pattern.jpg");
 }
+.main-program .button {
+  width: 80vw;
+}
 
 .activity {
   background-color: rgba(211, 211, 211, 0.3);
@@ -79,7 +83,31 @@ header {
   color: white;
   border: none;
   padding: 1.5em;
-  width: 80vw;
   font-size: 1.2em;
   cursor: pointer;
+}
+
+.speaker-img {
+  padding: 1em 0 0 1.1em;
+  background-image: url("/img/checkerboard.jpg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position-x: 10%;
+  max-width: 40%;
+}
+
+.speaker-short {
+  color: #ec5242;
+}
+
+.speaker-long {
+  font-size: 0.9em;
+}
+
+.partner-div {
+  padding: 1em;
+}
+
+.partner {
+  background-color: #272a31;
 }/*# sourceMappingURL=styles.css.map */
