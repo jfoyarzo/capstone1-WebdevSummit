@@ -38,9 +38,11 @@ header {
 }
 
 .hl-box {
+
   p {
     margin: 0;
   }
+
   background-color: #f7f7f7;
   padding: 1em;
   border: white solid 3px;
@@ -55,4 +57,40 @@ header {
 .date-text {
   font-weight: 700;
   font-size: 1.1em;
+}
+
+.main-program {
+  background-image: url('/img/pattern.jpg');
+}
+
+.activity {
+  background-color: adjust-color($color: $grey, $alpha: -0.7);
+  padding: 1em 0.5em;
+  margin-bottom: 1em;
+
+  h3 {
+    color: $orange;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.section-hr {
+ color: $orange;
+ width: 10%;
+ opacity: 1;
+}
+
+.button {
+  background-color: $orange;
+  color: white;
+  border: none;
+  padding: 1.5em;
+  width: 80vw;
+  font-size: 1.2em;
+  cursor: pointer;
 }

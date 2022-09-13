@@ -48,4 +48,38 @@ header {
 .date-text {
   font-weight: 700;
   font-size: 1.1em;
+}
+
+.main-program {
+  background-image: url("/img/pattern.jpg");
+}
+
+.activity {
+  background-color: rgba(211, 211, 211, 0.3);
+  padding: 1em 0.5em;
+  margin-bottom: 1em;
+}
+.activity h3 {
+  color: #ec5242;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.activity p {
+  margin: 0;
+}
+
+.section-hr {
+  color: #ec5242;
+  width: 10%;
+  opacity: 1;
+}
+
+.button {
+  background-color: #ec5242;
+  color: white;
+  border: none;
+  padding: 1.5em;
+  width: 80vw;
+  font-size: 1.2em;
+  cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */
