@@ -1,3 +1,51 @@
 body {
   font-family: "Lato", sans-serif;
+}
+
+h1 {
+  color: #ec5242;
+  font-family: "Righteous", cursive;
+  font-size: 4rem;
+}
+
+header {
+  background-image: url(/img/header-bg.png);
+  background-size: 380%;
+  background-repeat: no-repeat;
+  background-position: -557px 0;
+  padding-bottom: 2em;
+}
+
+.hl-wrapper > h1 {
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url("/img/mask-bg.png");
+  background-size: 400%;
+  background-position: 220px 0;
+}
+.hl-wrapper > p:first-child {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  color: #ec5242;
+}
+
+.hl-box {
+  background-color: #f7f7f7;
+  padding: 1em;
+  border: white solid 3px;
+  margin-bottom: 1em;
+}
+.hl-box p {
+  margin: 0;
+}
+
+.date {
+  font-family: "Righteous", cursive;
+  font-size: 1.8em;
+}
+
+.date-text {
+  font-weight: 700;
+  font-size: 1.1em;
 }/*# sourceMappingURL=styles.css.map */
