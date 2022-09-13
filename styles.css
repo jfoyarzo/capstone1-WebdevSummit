@@ -17,6 +17,14 @@ header {
   padding-bottom: 2em;
 }
 
+.about-header {
+  background-image: url(/img/header-bg.png);
+  background-size: 380%;
+  background-repeat: no-repeat;
+  background-position: -794px 0;
+  padding-bottom: 2em;
+}
+
 .hl-wrapper > h1 {
   -webkit-background-clip: text;
   background-clip: text;
@@ -26,6 +34,12 @@ header {
   background-position: 220px 0;
 }
 .hl-wrapper > p:first-child {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  color: #ec5242;
+}
+
+.about-hl-wrapper > p:first-child {
   margin-bottom: 0;
   font-size: 1.5rem;
   color: #ec5242;
@@ -49,6 +63,16 @@ header {
 .date-text {
   font-weight: 700;
   font-size: 1.1em;
+}
+
+.about-bottom-text {
+  font-size: 0.9em;
+}
+.about-bottom-text a {
+  color: #272a31;
+}
+.about-bottom-text a:hover {
+  opacity: 0.7;
 }
 
 .main-program {

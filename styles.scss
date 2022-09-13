@@ -21,6 +21,14 @@ header {
   padding-bottom: 2em;
 }
 
+.about-header {
+  background-image: url(/img/header-bg.png);
+  background-size: 380%;
+  background-repeat: no-repeat;
+  background-position: -794px 0;
+  padding-bottom: 2em;
+}
+
 .hl-wrapper > {
   h1 {
     -webkit-background-clip: text;
@@ -30,6 +38,15 @@ header {
     background-size: 400%;
     background-position: 220px 0;
   }
+
+  p:first-child {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    color: $orange;
+  }
+}
+
+.about-hl-wrapper > { 
 
   p:first-child {
     margin-bottom: 0;
@@ -58,6 +75,16 @@ header {
 .date-text {
   font-weight: 700;
   font-size: 1.1em;
+}
+
+.about-bottom-text {
+  font-size: 0.9em;
+  a {
+    color: $black;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
 }
 
 .main-program {
