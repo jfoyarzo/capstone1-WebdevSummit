@@ -334,4 +334,11 @@ header {
     max-width: 15vw;
     background-position: top left;
   }
+  .partner-wrapper {
+    width: 70%;
+    align-items: baseline;
+  }
+  footer {
+    padding: 2em !important;
+  }
 }/*# sourceMappingURL=styles.css.map */
