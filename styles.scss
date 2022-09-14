@@ -257,3 +257,75 @@ header {
 .partner {
   background-color: $black;
 }
+
+@media (min-width: 768px) {
+
+  .over-menu {
+    background-color: $black;
+    color: white;
+    margin-left: -0.8em;
+    margin-right: -0.7em;
+  }
+
+  .main-menu {
+    height: 8vh;
+    background-color: white;
+    margin-left: -0.7em;
+    margin-right: -0.7em;
+    padding: 1em;
+    justify-content: space-between;
+    align-content: center;
+  }
+
+  .menu-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    opacity: 1;
+    position: initial;
+    transform: initial;
+    height: initial;
+    padding: 1.5em;  
+    background-color: transparent;
+  }
+
+  .menu-item {
+    font-size: 1.2em;
+    margin-bottom: 0;
+    margin-right: 1em;
+  }
+
+  .logo {
+    font-size: 2em;
+    margin-left: 1em;
+  }
+
+  .menu-button {
+    background-color: white;
+    border: $orange solid 4px;
+    color: $orange;
+    padding: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  header {
+    background-image: url(/img/header-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: initial;
+    padding-bottom: 6em;
+  }
+
+  .hl-box {
+    margin-right: 50%;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+
+  .date {
+    margin-top: 3em;
+  }
+  
+}
