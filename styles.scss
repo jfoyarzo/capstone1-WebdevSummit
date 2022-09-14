@@ -156,6 +156,37 @@ header {
   margin-top: 2em;
 }
 
+.summit {
+  height: 30vh;
+  margin-bottom: 1.5em;
+  
+  h4 {
+    color: #f7f7f7;
+    font-weight: bold;
+    font-size: 2em;
+  }
+}
+
+.summit-1 {
+  background-color: adjust-color($color: $orange, $alpha: -0.2);
+  background-image: url('/img/past-summit-1.webp');
+  background-size: cover;
+  background-blend-mode: soft-light;
+}
+
+.summit-2 {
+  background-color: adjust-color($color: $orange, $alpha: -0.2);
+  background-image: url('/img/past-summit-2.jpg');
+  background-size: cover;
+  background-blend-mode: soft-light;
+}
+
+.summit-text {
+  color: #f7f7f7;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
 .partner-div {
   padding: 1em;
 }
