@@ -113,6 +113,16 @@ header {
   margin: 0;
 }
 
+.about-hl-box {
+  background-color: #f7f7f7;
+  padding: 1em;
+  border: white solid 3px;
+  margin-bottom: 1em;
+}
+.about-hl-box p {
+  margin: 0;
+}
+
 .date {
   font-family: "Righteous", cursive;
   font-size: 1.8em;
@@ -295,8 +305,16 @@ header {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
   }
+  .about-hl-box {
+    width: 60%;
+    padding: 2em;
+    margin: 2em auto;
+  }
   .date {
     margin-top: 3em;
+  }
+  .about-bottom-text {
+    margin: 5%;
   }
   .activity {
     text-align: center;
@@ -320,6 +338,7 @@ header {
   }
   .program-wrapper {
     margin-bottom: 5%;
+    justify-content: center;
   }
   .main-program {
     padding-bottom: 10% !important;
@@ -333,6 +352,10 @@ header {
   .speaker-img {
     max-width: 15vw;
     background-position: top left;
+  }
+  .logo-box {
+    width: 50%;
+    margin: 5% auto;
   }
   .partner-wrapper {
     width: 70%;
