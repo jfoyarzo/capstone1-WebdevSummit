@@ -111,6 +111,15 @@ header {
   cursor: pointer;
 }
 
+.logo-box {
+  margin: 3em 2em 0 3em;
+  padding: 2em;
+  border: #d3d3d3 solid 3px;
+}
+.logo-box p {
+  margin: 0;
+}
+
 .speaker-img {
   padding: 1em 0 0 1.1em;
   background-image: url("/img/checkerboard.jpg");
@@ -126,6 +135,10 @@ header {
 
 .speaker-long {
   font-size: 0.9em;
+}
+
+.past-summits {
+  margin-top: 2em;
 }
 
 .partner-div {
