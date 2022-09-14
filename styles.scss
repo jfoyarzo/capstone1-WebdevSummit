@@ -408,8 +408,22 @@ header {
     align-items: baseline;
   }
 
+  .past-summits {
+    padding-bottom: 6em !important;
+  }
+
+  .summit {
+    width: 45%;
+  }
+
   footer {
     padding: 2em !important;
+  }
+
+  .about-footer {
+    color: white;
+    background-color: $black;
+    margin: 0;
   }
 
 }

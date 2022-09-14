@@ -361,7 +361,18 @@ header {
     width: 70%;
     align-items: baseline;
   }
+  .past-summits {
+    padding-bottom: 6em !important;
+  }
+  .summit {
+    width: 45%;
+  }
   footer {
     padding: 2em !important;
+  }
+  .about-footer {
+    color: white;
+    background-color: #272a31;
+    margin: 0;
   }
 }/*# sourceMappingURL=styles.css.map */
