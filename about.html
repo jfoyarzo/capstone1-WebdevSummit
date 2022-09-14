@@ -18,7 +18,21 @@
 <body>
     <header class="container-fluid about-header">
         <nav class="main-menu">
-            <i class="fa-solid fa-bars ms-4 mt-4 mb-4 fa-2x menu-icon"></i>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars ms-4 mt-4 mb-4 fa-2x d-md-none"></i>
+            </div>
+            <div class="closeIcon hidden">
+                <i class="fa-solid fa-xmark fa-2xl"></i>
+            </div>
+            <div class="menu-wrapper">
+                <a href="/index.html" class="menu-item d-md-none">Home</a>
+                <a href="/about.html" class="menu-item">About</a>
+                <a href="#" class="menu-item muted">Program</a>
+                <a href="#" class="menu-item">Join</a>
+                <a href="#" class="menu-item">Sponsor</a>
+                <a href="#" class="menu-item">News</a>
+                <button type="button" class="menu-button d-none d-md-block">WebDev Campaign</button>
+            </div>
         </nav>
         <div class="headline mt-4">
             <div class="container about-hl-wrapper text-center">
