@@ -294,11 +294,15 @@ header {
     margin-right: 1em;
   }
   header {
-    background-image: url(/img/header-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: initial;
     padding-bottom: 6em;
+  }
+  .about-header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 60px;
   }
   .hl-box {
     margin-right: 50%;
