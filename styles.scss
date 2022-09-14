@@ -152,6 +152,7 @@ header {
 
 .main-program {
   background-image: url('/img/pattern.jpg');
+  text-align: center;
 
   .button {  
     width: 80vw;
@@ -327,5 +328,39 @@ header {
   .date {
     margin-top: 3em;
   }
-  
+
+  .activity {
+    text-align: center;
+    margin-left: 0.5em;
+    width: 25vh;
+    height: 20vh;
+    padding: 0.5em;
+
+    h3 {
+      width: 100% !important;
+    }
+
+    p {
+      width: 100% !important;
+    }
+  }
+
+  .program-link {
+    color: white;
+
+    &:hover,
+    &:active {
+      color: white;
+      opacity: 0.6;
+    }
+  }
+
+  .program-wrapper {
+    margin-bottom: 5%;
+  }
+
+  .main-program {
+    padding-bottom: 10% !important;
+  }
+
 }
