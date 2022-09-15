@@ -322,16 +322,21 @@ header {
   }
   .activity {
     text-align: center;
-    margin-left: 0.5em;
+    margin-left: 0.2em;
     width: 25vh;
-    height: 20vh;
-    padding: 0.5em;
+    height: 28vh;
+    padding: 1.5em 1em;
   }
   .activity h3 {
     width: 100% !important;
+    font-size: 1.5em;
   }
   .activity p {
     width: 100% !important;
+    font-size: 1.1em;
+  }
+  .activity:hover {
+    outline: #d3d3d3 solid 2px;
   }
   .program-link {
     color: white;
@@ -345,7 +350,7 @@ header {
     justify-content: center;
   }
   .main-program {
-    padding-bottom: 10% !important;
+    padding-bottom: 5% !important;
   }
   .speakers-wrapper {
     width: 75%;
