@@ -3,37 +3,37 @@ const speakers = [
     name: 'Yochai Benkler',
     short_description: 'Phasellus semper volutpat',
     long_description: 'Nunc id mauris tortor. In tempor accumsan ligula sed fringilla.',
-    image: '/img/Benkler.jpg',
+    image: 'img/Benkler.jpg',
   },
   {
     name: 'Kilnam Chon',
     short_description: 'Phasellus semper volutpat',
     long_description: 'Nunc id mauris tortor. In tempor accumsan ligula sed fringilla.',
-    image: '/img/Kilnam.jpg',
+    image: 'img/Kilnam.jpg',
   },
   {
     name: 'SohYeong Noh',
     short_description: 'Phasellus semper volutpat',
     long_description: 'Nunc id mauris tortor. In tempor accumsan ligula sed fringilla.',
-    image: '/img/Noh.jpg',
+    image: 'img/Noh.jpg',
   },
   {
     name: 'Julia Leda',
     short_description: 'Phasellus semper volutpat',
     long_description: 'Nunc id mauris tortor. In tempor accumsan ligula sed fringilla.',
-    image: '/img/Julia.jpg',
+    image: 'img/Julia.jpg',
   },
   {
     name: 'Lila Tretikov',
     short_description: 'Phasellus semper volutpat',
     long_description: 'Nunc id mauris tortor. In tempor accumsan ligula sed fringilla.',
-    image: '/img/Tretikov.jpg',
+    image: 'img/Tretikov.jpg',
   },
   {
     name: 'Ryan Merkley',
     short_description: 'Phasellus semper volutpat',
     long_description: 'Nunc id mauris tortor. In tempor accumsan ligula sed fringilla.',
-    image: '/img/Merkley.jpg',
+    image: 'img/Merkley.jpg',
   },
 ];
 
