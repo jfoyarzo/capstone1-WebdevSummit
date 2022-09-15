@@ -331,9 +331,9 @@ header {
   }
 
   .about-header {
-    background-size: cover;
+    background-size: 120%;
     background-repeat: no-repeat;
-    background-position: 0 60px;
+    background-position: initial;
   }
 
   .hl-box {
