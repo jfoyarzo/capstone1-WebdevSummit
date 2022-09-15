@@ -23,7 +23,10 @@ You can use:<br>
 `git clone git@github.com:jfoyarzo/capstone1-WebdevSummit.git` 
 
 ### Live version
-You can now view an online version of this site on the following link: [https://jfoyarzo.github.io/capstone1-WebdevSummit/]
+You can now view an online version of this site on the following link: https://jfoyarzo.github.io/capstone1-WebdevSummit/
+
+### Video
+Here is a link to the video explaining the code https://www.loom.com/share/0848ca494bf84777982f62642cbd28a6
 
 ## Authors
 
