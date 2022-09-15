@@ -62,7 +62,7 @@ for (let i = 0; i < speakers.length; i += 1) {
   speaker.innerHTML = `
   <div class="row">
   <div class="speaker-img col-5">
-      <img src="${eachObj.image}" alt="Yochai Benkler" class="img-fluid">
+      <img src="${eachObj.image}" alt="${eachObj.name}" class="img-fluid">
   </div>
   <div class="speaker-text col-7 ms-1">
       <h4 class="fw-bold">${eachObj.name}</h4>

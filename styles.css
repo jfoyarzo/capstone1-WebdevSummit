@@ -68,7 +68,7 @@ h1 {
 }
 
 header {
-  background-image: url(/img/header-bg.png);
+  background-image: url(img/header-bg.png);
   background-size: 380%;
   background-repeat: no-repeat;
   background-position: -557px 0;
@@ -76,7 +76,7 @@ header {
 }
 
 .about-header {
-  background-image: url(/img/header-bg.png);
+  background-image: url(img/header-bg.png);
   background-size: 380%;
   background-repeat: no-repeat;
   background-position: -794px 0;
@@ -87,7 +87,7 @@ header {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: url("/img/mask-bg.png");
+  background-image: url("img/mask-bg.png");
   background-size: 400%;
   background-position: 220px 0;
 }
@@ -144,7 +144,7 @@ header {
 }
 
 .main-program {
-  background-image: url("/img/pattern.jpg");
+  background-image: url("img/pattern.jpg");
   text-align: center;
 }
 .main-program .button {
@@ -191,7 +191,7 @@ header {
 
 .speaker-img {
   padding: 1em 0 0 1.1em;
-  background-image: url("/img/checkerboard.jpg");
+  background-image: url("img/checkerboard.jpg");
   background-size: 50%;
   background-repeat: no-repeat;
   background-position-x: 10%;
@@ -222,14 +222,14 @@ header {
 
 .summit-1 {
   background-color: rgba(236, 82, 66, 0.8);
-  background-image: url("/img/past-summit-1.webp");
+  background-image: url("img/past-summit-1.webp");
   background-size: cover;
   background-blend-mode: soft-light;
 }
 
 .summit-2 {
   background-color: rgba(236, 82, 66, 0.8);
-  background-image: url("/img/past-summit-2.jpg");
+  background-image: url("img/past-summit-2.jpg");
   background-size: cover;
   background-blend-mode: soft-light;
 }
