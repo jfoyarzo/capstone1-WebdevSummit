@@ -83,24 +83,14 @@ header {
   padding-bottom: 2em;
 }
 
-.hl-wrapper > h1 {
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-image: url("img/mask-bg.png");
-  background-size: 400%;
-  background-position: 220px 0;
+.about-hl-box {
+  background-color: #f7f7f7;
+  padding: 1em;
+  border: white solid 3px;
+  margin-bottom: 1em;
 }
-.hl-wrapper > p:first-child {
-  margin-bottom: 0;
-  font-size: 1.5rem;
-  color: #ec5242;
-}
-
-.about-hl-wrapper > p:first-child {
-  margin-bottom: 0;
-  font-size: 1.5rem;
-  color: #ec5242;
+.about-hl-box p {
+  margin: 0;
 }
 
 .hl-box {
@@ -110,16 +100,6 @@ header {
   margin-bottom: 1em;
 }
 .hl-box p {
-  margin: 0;
-}
-
-.about-hl-box {
-  background-color: #f7f7f7;
-  padding: 1em;
-  border: white solid 3px;
-  margin-bottom: 1em;
-}
-.about-hl-box p {
   margin: 0;
 }
 
@@ -141,14 +121,6 @@ header {
 }
 .about-bottom-text a:hover {
   opacity: 0.7;
-}
-
-.main-program {
-  background-image: url("img/pattern.jpg");
-  text-align: center;
-}
-.main-program .button {
-  width: 80vw;
 }
 
 .activity {
@@ -246,6 +218,34 @@ header {
 
 .partner {
   background-color: #272a31;
+}
+
+.hl-wrapper > h1 {
+  -webkit-background-clip: text;
+  background-clip: initial;
+  -webkit-text-fill-color: transparent;
+  background-image: url("img/mask-bg.png");
+  background-size: 400%;
+  background-position: 220px 0;
+}
+.hl-wrapper > p:first-child {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  color: #ec5242;
+}
+
+.about-hl-wrapper > p:first-child {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  color: #ec5242;
+}
+
+.main-program {
+  background-image: url("img/pattern.jpg");
+  text-align: center;
+}
+.main-program .button {
+  width: 80vw;
 }
 
 @media (min-width: 768px) {

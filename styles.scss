@@ -13,12 +13,11 @@ h1 {
   font-size: 4rem;
 }
 
-
 .main-menu {
   min-height: 5em;
   display: flex;
   justify-content: flex-start;
-  align-items: center;  
+  align-items: center;
 }
 
 .hidden {
@@ -31,7 +30,7 @@ h1 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: $black;  
+  background-color: $black;
   opacity: 0;
   position: fixed;
   transform: translateX(100%);
@@ -92,34 +91,7 @@ header {
   padding-bottom: 2em;
 }
 
-.hl-wrapper > {
-  h1 {
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: url('img/mask-bg.png');
-    background-size: 400%;
-    background-position: 220px 0;
-  }
-
-  p:first-child {
-    margin-bottom: 0;
-    font-size: 1.5rem;
-    color: $orange;
-  }
-}
-
-.about-hl-wrapper > { 
-
-  p:first-child {
-    margin-bottom: 0;
-    font-size: 1.5rem;
-    color: $orange;
-  }
-}
-
-.hl-box {
-
+.about-hl-box {
   p {
     margin: 0;
   }
@@ -130,8 +102,7 @@ header {
   margin-bottom: 1em;
 }
 
-.about-hl-box {
-
+.hl-box {
   p {
     margin: 0;
   }
@@ -154,20 +125,13 @@ header {
 
 .about-bottom-text {
   font-size: 0.9em;
+
   a {
     color: $black;
+
     &:hover {
       opacity: 0.7;
     }
-  }
-}
-
-.main-program {
-  background-image: url('img/pattern.jpg');
-  text-align: center;
-
-  .button {  
-    width: 80vw;
   }
 }
 
@@ -188,9 +152,9 @@ header {
 }
 
 .section-hr {
- color: $orange;
- width: 10%;
- opacity: 1;
+  color: $orange;
+  width: 10%;
+  opacity: 1;
 }
 
 .button {
@@ -206,6 +170,7 @@ header {
   margin: 3em 2em 0 3em;
   padding: 2em;
   border: #d3d3d3 solid 3px;
+
   p {
     margin: 0;
   }
@@ -235,7 +200,7 @@ header {
 .summit {
   height: 30vh;
   margin-bottom: 1.5em;
-  
+
   h4 {
     color: #f7f7f7;
     font-weight: bold;
@@ -271,8 +236,41 @@ header {
   background-color: $black;
 }
 
-@media (min-width: 768px) {
+.hl-wrapper > {
+  h1 {
+    -webkit-background-clip: text;
+    background-clip: initial;
+    -webkit-text-fill-color: transparent;
+    background-image: url('img/mask-bg.png');
+    background-size: 400%;
+    background-position: 220px 0;
+  }
 
+  p:first-child {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    color: $orange;
+  }
+}
+
+.about-hl-wrapper > {
+  p:first-child {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    color: $orange;
+  }
+}
+
+.main-program {
+  background-image: url('img/pattern.jpg');
+  text-align: center;
+
+  .button {
+    width: 80vw;
+  }
+}
+
+@media (min-width: 768px) {
   .over-menu {
     background-color: $black;
     color: white;
@@ -299,7 +297,7 @@ header {
     position: initial;
     transform: initial;
     height: initial;
-    padding: 1.5em;  
+    padding: 1.5em;
     background-color: transparent;
   }
 
@@ -430,5 +428,4 @@ header {
     background-color: $black;
     margin: 0;
   }
-
 }
