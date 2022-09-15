@@ -221,8 +221,8 @@ header {
 }
 
 .hl-wrapper > h1 {
-  -webkit-background-clip: text;
   background-clip: initial;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-image: url("img/mask-bg.png");
   background-size: 400%;
